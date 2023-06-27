@@ -8,7 +8,7 @@
  * Return: asddsa
  */
 
-int _atoi(char *s)
+int _atoi(charr *s)
 {
 	unsigned int num = 0;
 	int sign = 1;
