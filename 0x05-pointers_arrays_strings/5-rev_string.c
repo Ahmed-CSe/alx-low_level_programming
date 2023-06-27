@@ -4,7 +4,7 @@
  * rev_string - reverses a
  *
  * @s: adm asdn
- * 
+ *
  * Return: Nothing
  */
 void rev_string(char *s)
