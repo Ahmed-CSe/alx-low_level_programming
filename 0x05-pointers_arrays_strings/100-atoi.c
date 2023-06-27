@@ -2,9 +2,12 @@
 
 /**
  * _atoi - adsasd asda ad
+ *
  * @s: adsd ada
+ *
  * Return: asddsa
  */
+
 int _atoi(char *s)
 {
 	unsigned int num = 0;
@@ -19,5 +22,5 @@ int _atoi(char *s)
 			break;
 	} while (*s++);
 
-	reurn (num * sign);
+	return (num * sign);
 }
