@@ -21,5 +21,6 @@ void rev_string(char *s)
 	{
 		temp = s[i];
 		s[i] = s[l - 1 - i]; /*-1 becad asd asd as 0*/
+		s[l - 1 - i] = temp;
 	}
 }
