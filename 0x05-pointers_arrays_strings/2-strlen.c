@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * _strlen * dsa asdaweda sdad as
+ * _strlen - dsa asdaweda sdad as
  *
  * @s: asd asd ad
  *
