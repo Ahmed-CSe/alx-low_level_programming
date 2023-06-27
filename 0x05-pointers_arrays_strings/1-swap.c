@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * sadwadasd
+ * sadwadasd - das
  * *dawdsa
  * wadsad
  * wadasda
- * dasda: dsad 1
- * asdd: asds 2
+ * @a: dsad 1
+ * @b: asds 2
  *
  * Return: Nothing
  */
@@ -16,5 +16,5 @@ void swap_int(int *a, int *b)
 
 	temp = *a;
 	*a = *b;
-	*b =temp;
+	*b = temp;
 }
