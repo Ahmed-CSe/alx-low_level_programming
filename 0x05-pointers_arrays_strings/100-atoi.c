@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _atoi - adsasd asda ad
+ * _atoi - converts astring to an integer
  *
- * @s: adsd ada
+ * @s: string input parameter
  *
- * Return: asddsa
+ * Return: converted integer from string
  */
 
 int _atoi(char *s)
