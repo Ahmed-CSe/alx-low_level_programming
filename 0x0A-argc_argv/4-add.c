@@ -3,10 +3,26 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ *  * num_check - check - string there are digit
+ *   * @s: array str
+ *    *
+ *     * Return: Always 0 (Success)
+ */
+
 int num_check(char *s)
 {
-	return (isdigit(s));
+	return (isdigit(s[]));
 }
+
+/**
+ *  * main - Print the name of the program
+ *   * @argc: Count arguments
+ *    * @argv: Arguments
+ *     *
+ *      * Return: Always 0 (Success)
+ */
+
 
 int main(int argc, char *argv[])
 {
@@ -14,22 +30,17 @@ int main(int argc, char *argv[])
 
 	while (i <= argc)
 	{
-		if (num_check(argv[i]))
-		{
-			continue;
-		}
-		else
+		if (!num_check(argv[i]))
 		{
 			printf("Error\n");
 			return (1);
-			break;
 		}
 
 		sum += atoi(argv[i]);
 
 		i++;
 	}
-	
+
 	printf("%d\n", sum);
 
 	return (0);
