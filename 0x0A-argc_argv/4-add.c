@@ -25,8 +25,10 @@ int num_check(char *str)
 		}
 
 		count++;
+	}
+	return (1);
 }
-}
+
 /**
  *  * main - Print the name of the program
  *   * @argc: Count arguments
