@@ -26,8 +26,9 @@ int num_check(char *str)
 
 int main(int argc, char *argv[])
 {
-	int sum = 0, i = 1, j = 1;
+	/*int sum = 0, i = 1, j = 1;*/
 
+	int i = 1;
 	while (i <= argc)
 	{
 		if (num_check(argv[i]))
@@ -38,13 +39,6 @@ int main(int argc, char *argv[])
 
 		i++;
 	}
-	for (; j <= argc; j++)
-	{
-	sum = sum + atoi(argv[j]);
-	}
-
-
-	printf("%d\n", sum);
 
 	return (0);
 }
