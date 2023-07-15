@@ -26,18 +26,24 @@ int num_check(char *str)
 
 int main(int argc, char *argv[])
 {
-	int sum = 0, i = 1;
+	int sum = 0;
+	int i;
+	int k;
 
-	while (i <= argc)
+	i = 1;
+
+	while (i < argc)
 	{
 		if (!num_check(argv[i]))
 		{
 			printf("Error\n");
 			return (1);
 		}
-
-		sum += atoi(argv[i]);
-
+		else
+		{
+			k = atoi(argv[i]);
+			sum += k;
+		}
 		i++;
 	}
 
