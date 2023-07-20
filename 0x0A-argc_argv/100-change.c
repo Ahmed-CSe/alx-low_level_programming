@@ -1,11 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-<<<<<<< HEAD
-
-int main(int argc, char *argv[])
-{
-
-=======
 #include "main.h"
 
 /**
@@ -48,4 +42,3 @@ int main(int argc, char *argv[])
 	printf("%d\n", result);
 	return (0);
 }
->>>>>>> refs/remotes/origin/master
